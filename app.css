@@ -1,0 +1,71 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+
+
+
+*/
+.top-header {
+  text-align : center;
+  width : auto;
+  padding : auto;
+  margin : 0 auto;
+  border-image-width: 20%;
+}
+
+header ul {
+list-style-type : none;
+padding-left : 0;	
+}
+
+header {
+font-family : "Helvetica";
+}
+
+main {
+font-family : 'Times New Roman', Times, serif;
+font-size : 12px;
+text-align : center;
+background-color : #FFFFFF;
+margin-left : 500px;
+margin-right : 500px;
+border-radius : 10px;
+}
+
+h4 {
+color : #4042E7;
+font-size : 20px;
+margin-bottom : 10px;
+}
+
+.ending{
+font-size : 15px;
+}
+
+body {
+background-color : #EFECEA;
+}
+
+
+
+
+
+
+  /* --- Groups & Items --- */
+@media all and (max-width: 800px) {
+
+  main {
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  section, h1 {
+    padding: 0 10%;
+    text-align: center;
+  }
+}
